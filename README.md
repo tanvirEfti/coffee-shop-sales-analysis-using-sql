@@ -3,7 +3,7 @@
 > a real-world sql project that transforms coffee shop sales data into actionable business insights using postgresql.
 
 <p align="center">
-  <img src="spotify-logo-1920x1080.jpg" width="450" alt="Spotify Logo">
+  <img src="https://raw.githubusercontent.com/tanvirEfti/coffee-shop-sales-analysis-using-sql/main/Gemini_Generated_Image_w0nm3jw0nm3jw0nm.png" width="900">
 </p>
 
 
@@ -53,9 +53,6 @@ from city ;
 ```
 
 ### 2. total revenue from coffee sales
-
-**question**
-
 > what is the total revenue generated from coffee sales across all cities in the last quarter of 2023?
 
 ```sql
@@ -75,9 +72,6 @@ order by final_revenue desc;
 ```
 
 ### 3. sales count for each product
-
-**question**
-
 > how many units of each coffee product have been sold?
 
 ```sql
@@ -93,9 +87,6 @@ order by 5 desc;
 ```
 
 ### 4. average sales amount per city
-
-**question**
-
 > what is the average sales amount per customer in each city?
 
 ```sql
@@ -113,9 +104,6 @@ order by average_sale_per_customer desc;
 ```
 
 ### 5. city population and coffee consumers
-
-**question**
-
 > provide a list of cities along with their populations and estimated coffee consumers.
 
 ```sql
@@ -131,9 +119,6 @@ order by c.city_name;
 ```
 
 ### 6. top selling products by city
-
-**question**
-
 > what are the top 3 selling products in each city based on sales volume?
 
 ```sql
@@ -162,9 +147,6 @@ from desire
 ```
 
 ### 7. customer segmentation by city
-
-**question**
-
 > how many unique customers are there in each city who have purchased coffee products?
 
 ```sql
@@ -184,9 +166,6 @@ group by c.city_name;
 ```
 
 ### 8. average sale vs rent
-
-**question**
-
 > find each city and their average sale per customer and average rent per customer.
 
 ```sql
@@ -212,9 +191,6 @@ from avg_table
 
 ```
 ### 9. monthly sales growth
-
-**question**
-
 > calculate the monthly sales growth (or decline) percentage over different time periods.
 
 ```sql
@@ -351,8 +327,24 @@ through this project i strengthened my understanding of:
 
 ---
 
+## Special Note
+
+You may notice that some queries use a mix of uppercase and lowercase SQL keywords. While the formatting may not always be consistent, all queries were written and tested as part of my hands-on practice and learning process.
+If you find any mistakes, bugs, or opportunities for improvement, please feel free to contact me or open an issue. Constructive feedback is always appreciated and helps me continue growing as a data analyst.
+
+Thank you for checking out my project!
+
+## Acknowledgments
+
+Special thanks to ([Najir H.](https://github.com/najirh)) for providing the spotify_dataset and practice questions that inspired this project. All SQL solutions, analysis, documentation, and project implementation in this repository were completed independently as part of my learning journey.
+
+
+
 ## 👨‍💻 author
 
 **Eftekhar Tanvir Efti**
 
 if you found this project helpful, feel free to ⭐ the repository.
+
+GitHub: https://github.com/tanvirEfti
+LinkedIn: *(www.linkedin.com/in/eftekhar-tanvir-efti-1216843b1)*
