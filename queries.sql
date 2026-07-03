@@ -8,8 +8,8 @@ select * from sales;
 -- How many people in each city are estimated to consume coffee, given that 25% of the population does?
 
 select city_name, 
-       round(population * 0.25)/1000000 as estimated_coffee_consumers, city_rank
-       from city ;
+round(population * 0.25)/1000000 as estimated_coffee_consumers, city_rank
+from city ;
 
 
 -- 2 Total Revenue from Coffee Sales
