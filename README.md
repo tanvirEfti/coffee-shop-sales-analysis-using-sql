@@ -25,7 +25,7 @@ the project demonstrates practical use of sql for data analysis rather than simp
 
 ---
 
-## 📂 dataset
+# 📂 dataset
 
 the database consists of four relational tables:
 
@@ -35,6 +35,16 @@ the database consists of four relational tables:
 | `customers` | customer details and city mapping |
 | `products` | coffee product information |
 | `sales` | transaction records containing sales data |
+
+
+## 📂 dataset relation 
+
+<p align="center">
+  <img src="https://github.com/tanvirEfti/coffee-shop-sales-analysis-using-sql/blob/main/Screenshot%202026-07-03%20220852.png" width="900">
+</p>" 
+
+
+
 
 ---
 
